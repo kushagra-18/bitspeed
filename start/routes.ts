@@ -25,3 +25,4 @@ Route.get('/', async () => {
 })
 
 Route.post('/contacts', 'ContactsController.create');
+Route.post('/identify', 'ContactsController.getResult');
